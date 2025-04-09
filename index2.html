@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC interactive</title>
+    <!-- Link css-->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main heading-->
+     <h1>Alphabet</h1>
+    
+    <!-- Navigation section with clickable letters-->
+     <section id="letter-navigation">
+        <nav>  
+            <a href="#" onclick="showLetter('A')">A</a>
+            <a href="#" onclick="showLetter('B')">B</a>
+            <a href="#" onclick="showLetter('C')">C</a>
+            <a href="#" onclick="showLetter('D')">D</a>
+            <a href="#" onclick="showLetter('E')">E</a>
+            <a href="#" onclick="showLetter('F')">F</a>
+            <a href="#" onclick="showLetter('G')">G</a>
+            <a href="#" onclick="showLetter('H')">H</a>
+            <a href="#" onclick="showLetter('I')">I</a>
+            <a href="#" onclick="showLetter('J')">J</a>
+            <a href="#" onclick="showLetter('K')">K</a>
+            <a href="#" onclick="showLetter('L')">L</a>
+            <a href="#" onclick="showLetter('M')">M</a>
+            <a href="#" onclick="showLetter('N')">N</a>
+            <a href="#" onclick="showLetter('Ñ')">Ñ</a>
+            <a href="#" onclick="showLetter('O')">O</a>
+            <a href="#" onclick="showLetter('P')">P</a>
+            <a href="#" onclick="showLetter('Q')">Q</a>
+            <a href="#" onclick="showLetter('R')">R</a>
+            <a href="#" onclick="showLetter('S')">S</a>
+            <a href="#" onclick="showLetter('T')">T</a>
+            <a href="#" onclick="showLetter('U')">U</a>
+            <a href="#" onclick="showLetter('V')">V</a>
+            <a href="#" onclick="showLetter('W')">W</a>
+            <a href="#" onclick="showLetter('X')">X</a>
+            <a href="#" onclick="showLetter('Y')">Y</a>
+            <a href="#" onclick="showLetter('Z')">Z</a>
+        </nav>
+    </section>  
+
+
+    <!-- Section to display clicked letter-->
+     <section id="letter-display">
+
+        <!-- This will show a bigger letter once the letter is clicked -->
+        <h2 id="big-letter"> <!-- Waiting to place letter--> </h2>
+
+        <!-- This will show an image of the letter-->
+         <img id="letter-image" src="" alt="" style=" display: none; width: 200px; height: auto; ">
+
+     </section>
+
+     <!-- Link to external JavaScript file-->
+      <script src="script2.js"></script>
+</body>
+
+</html>

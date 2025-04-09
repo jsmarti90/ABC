@@ -1,0 +1,68 @@
+/* Reset some default spacing */
+body, h1, h2, nav, section {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main heading */
+h1 {
+    font-size: 3rem;
+    color: #ff7043;
+    margin-bottom: 30px;
+}
+
+/* Navigation section */
+#letter-navigation nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#letter-navigation a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #fff3e0;
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: 2px solid #ffccbc;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+#letter-navigation a:hover {
+    background-color: #ffe0b2;
+    transform: scale(1.1);
+}
+
+/* Letter display section */
+#letter-display {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#big-letter {
+    font-size: 5rem;
+    color: #4db6ac;
+    margin-bottom: 20px;
+}
+
+#letter-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 3px solid #b2dfdb;
+}
