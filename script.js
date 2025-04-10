@@ -110,7 +110,7 @@ const datos = {
   };
 
 
-const letras = document.querySelectorAll(".letters span");
+const letras = document.querySelectorAll(".alphabet span");
 const imagen = document.getElementById("image");
 const texto = document.getElementById("text");
   
@@ -126,3 +126,9 @@ letras.forEach((letra) => {
       }
     });
   });
+
+  function cambiarColor(){
+    const colores = ["yellow","blue","red","green","black","white","pink","orange"]
+    const randomSelect = colores[Math.floor(Math.random()*colores.length)]
+    document.getElementById("text").style.color = randomSelect
+}
