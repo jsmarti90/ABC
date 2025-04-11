@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #FFEFC8;
+}
+#container{
+    background-color: #B8D576;
+    padding: 30px 0px 30px;
+}
+hr {
+    height: 20px;
+    background-color: #5f8f49;
+    box-shadow: 0 1px 5px #304e26ec; 
+    border: 0;
+  }
+h1{
+    color: #FFD95F;
+    text-align: center;
+    font-family: "Bagel Fat One";
+    font-size: 150px;
+    font-weight: 200;
+    text-shadow: #bd6615 2px 5px;
+}
+h2{
+    color:#5f8f49;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-top: 10px;
+}
+.alphabet{
+    color:#D70654;
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    
+}
+#text{
+    color: #D70654;
+    margin-top: 2%;
+    font-family:"Montserrat";
+    font-weight: 600;
+    font-size: 3vw;;
+    text-align:center;
+}
+div img{
+    display:block;
+    margin:auto;
+    width: 300px;
+    border-radius: 5%;
+    box-shadow:  5px 6px #524831ec;  
+}
+div h3{
+    color: #5f8f49;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:20px ;
+    text-align: center;
+    margin-bottom: 20px;
+}
